@@ -1,0 +1,12 @@
+@import './spritesmith/sprite.scss';
+
+.table{
+  font-size: 16px;
+  margin-bottom: 20px;/*no*/
+}
+
+.icon{
+  display: inline-block;
+  @include sprite($application);
+  background-size: 100%;
+}
