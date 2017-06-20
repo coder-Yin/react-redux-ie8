@@ -3,7 +3,7 @@
 > react-redux-demo 兼容ie8
 
 ### 一、项目说明
-	```
+	
 	技术栈：
 	react+redux+webpack
 	
@@ -16,8 +16,9 @@
 	
 	访问地址：
 	http://localhost:3000/
-	```
-
+	
+![react-redux-ie8效果图](http://upload-images.jianshu.io/upload_images/712523-4e25af241e225add.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	
 ### 二、环境依赖
 	
 	- react 版本不高于v0.14
