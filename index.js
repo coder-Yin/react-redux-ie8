@@ -1,7 +1,7 @@
 require('es5-shim');
 require('es5-shim/es5-sham');
 require('console-polyfill');
-require('babel-polyfill/dist/polyfill');
+require('babel-polyfill');
 
 const React = require('react');
 const ReactDom = require('react-dom');
