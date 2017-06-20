@@ -1,8 +1,30 @@
 # react-redux-ie8
 
-> react-redux-demo修改为兼容ie8
+> react-redux-demo 兼容ie8
 
-### 准备工作
+### 一、项目说明
+	```
+	技术栈：
+	react+redux+webpack
+	
+	功能点：
+	简易todoList(增加、筛选、列表）
+	
+	启动说明：
+	npm install
+	npm start
+	
+	访问地址：
+	http://localhost:3000/
+	```
+
+### 二、环境依赖
+	
+	- react 版本不高于v0.14
+	- jQuery版本是1.x.x的版本，IE8不支持Juqery2.x的版本
+	- webpack-hot-middleware不支持（我们开发也不会一直在ie8上开发，可以忽略...）
+
+### 三、准备工作
 
 - 1.es3ify解决es3环境兼容
 
@@ -70,7 +92,8 @@
 
 	不要在代码中用Object.defineProperty设置访问器属性，若第三方包中有，找到，改之。
 
-### 写法注意
+### 四、写法注意点
+
 - 不使用import 
 
 	```
@@ -155,6 +178,11 @@
 	const Head = require('head');
 	```
 	
+	
+- 参考文档(排名不分先后)
+
+	[xcatliu/react-ie8](https://github.com/xcatliu/react-ie8) <br />
+	[阿里巴巴国际UED团队](http://www.aliued.com/?p=3240)	
 	
 
 
