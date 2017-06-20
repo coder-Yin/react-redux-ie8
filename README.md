@@ -77,7 +77,7 @@
 	import will be transformed to `Object.defineProperty` by babel,Object.defineProperty` doesn't exists in IE8
 	```
 	
-	# attention1:
+	##### attention1:
 	
 	origin:	
 	
@@ -92,7 +92,7 @@
 	const ReactDom = require('react-dom');
 	```
 
-	# attention2:
+	##### attention2:
 	
 	origin:	
 	
