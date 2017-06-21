@@ -178,7 +178,8 @@
 	ComponentB:
 	const Head = require('head');
 	```
-	
+- npm包版本固定（以免安装时安装其他新的版本导致ie8下出错）
+- react-css-module在ie8下不支持，用cssModule就可以了
 	
 - 参考文档(排名不分先后)
 
