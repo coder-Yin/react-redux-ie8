@@ -140,15 +140,6 @@
 	now:
 	
 	```
-	actionTypes.js:
-		const SET_STUDENTLIST = 'SET_STUDENTLIST';
-		const SET_STUDENTGENDERTYPE = 'SET_STUDENTGENDERTYPE';
-		const actionTypes = {
-  			SET_STUDENTLIST,
-  			SET_STUDENTGENDERTYPE,
-		};
-		module.exports = actionTypes;
-	
 	reducer.js:
 		const actionTypes = require('../actionType');
 		...
