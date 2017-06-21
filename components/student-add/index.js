@@ -1,5 +1,6 @@
 const React = require('react');
 const {Component} = require('react');
+const styles = require('./index.scss');
 
 class StudentAdd extends Component{
    
@@ -20,6 +21,7 @@ class StudentAdd extends Component{
     render(){
         return(
     		 	<div className="container bg-info pt10">
+						 <span className={styles.text}>Hello</span>
     			 	 <div className="form-horizontal">
     				  <div className="form-group">
     				    <label htmlFor="stuNo" className="col-sm-2 control-label">学号：</label>
